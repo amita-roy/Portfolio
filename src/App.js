@@ -3,8 +3,8 @@ import React, { Component } from 'react';
 class App extends Component {
   render() {
     return (
-      <div>
-        <h1>Hello Portfolio</h1>
+      <div className="bg-body">
+        <h1 className="text-primary">Hello Portfolio</h1>
       </div>
     );
   }
