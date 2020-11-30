@@ -7,6 +7,7 @@
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
     "autoprefixer": "^10.0.3",
+    "classnames": "^2.2.6",
     "postcss": "^8.1.10",
     "postcss-cli": "^8.3.0",
     "react": "^17.0.1",
