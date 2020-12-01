@@ -1,8 +1,23 @@
 import React, { Component } from 'react';
+import Link from './Link';
 
 class Nav extends Component {
   render() {
-    return <div></div>;
+    return (
+      <div className="flex items-center justify-between h-5 py-10 border-2">
+        <div className="brand">
+          <h1>
+            <a href="/">ar</a>
+          </h1>
+        </div>
+        <div className="links">
+          <Link id="home">Intro</Link>
+          <Link id="portfolio">Portfolio</Link>
+          <Link id="about">About</Link>
+          <Link id="contact">Contact</Link>
+        </div>
+      </div>
+    );
   }
 }
 

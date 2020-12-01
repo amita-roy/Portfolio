@@ -8,7 +8,7 @@ export class Link extends Component {
   render() {
     const url = window.location.href;
     const { id } = this.props;
-    const linkClassnames = classNames('text-sm', 'mr-3', {
+    const linkClassnames = classNames('text-sm', 'ml-5', {
       'text-primary': url.includes(id),
     });
     return (

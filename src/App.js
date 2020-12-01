@@ -1,12 +1,11 @@
 import React, { Component } from 'react';
-// import Button from './components/Button';
-// import Link from './components/Link';
+import Nav from './components/Nav';
 
 class App extends Component {
   render() {
     return (
-      <div className="bg-body">
-        <h1>Main Page</h1>
+      <div className="bg-body px-20 h-screen">
+        <Nav />
       </div>
     );
   }
