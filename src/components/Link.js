@@ -2,8 +2,20 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 
 export class Link extends Component {
+  static defaultProps = {
+    id: '',
+  };
   render() {
-    return <div></div>;
+    const url = window.location.href;
+    const { id } = this.props;
+    const linkClassnames = classNames('text-sm', 'mr-3', {
+      'text-primary': url.includes(id),
+    });
+    return (
+      <a href={`/${id}`} className={linkClassnames}>
+        {this.props.children}
+      </a>
+    );
   }
 }
 

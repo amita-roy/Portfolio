@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
 // import Button from './components/Button';
+// import Link from './components/Link';
 
 class App extends Component {
   render() {
     return (
       <div className="bg-body">
-        <h1 className="text-primary">Hello Portfolio</h1>
+        <h1>Main Page</h1>
       </div>
     );
   }
