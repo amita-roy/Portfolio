@@ -4,9 +4,9 @@ import SocialIconGroup from './SocialIconGroup';
 export class Header extends Component {
   render() {
     return (
-      <div className="mt-20 h-1/3 flex flex-col justify-between">
+      <div className="mt-20 h-80 flex flex-col justify-between">
         <div>
-          <h1 className="text-5xl font-bold mb-6  max-w-md font-display">
+          <h1 className="text-6xl mb-6  max-w-lg font-display font-extrabold">
             Pretty code by ingenious person
           </h1>
 
