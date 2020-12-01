@@ -21,6 +21,11 @@ module.exports = {
         placeholder: '#B0B4BD',
         grayLight: '#727274',
       },
+
+      fontFamily: {
+        display: 'Nunito',
+        body: 'Roboto',
+      },
     },
   },
   variants: {
