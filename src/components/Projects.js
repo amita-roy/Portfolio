@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import Card from './Card';
+import { Card } from './Card';
 import anyImage from '../images/test.jpg';
 class Projects extends Component {
   render() {

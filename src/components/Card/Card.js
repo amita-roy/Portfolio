@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-import Button from './Button';
+import { Button } from '../Button';
+import styles from './Card.module.css';
 
 class Card extends Component {
   render() {
@@ -21,7 +22,7 @@ class Card extends Component {
       'bg-no-repeat'
     );
     const { title, href, background } = this.props;
-
+    console.log(styles);
     return (
       <div
         className={cardClasses}
@@ -35,19 +36,15 @@ class Card extends Component {
           </p>
           <ul className="flex">
             <li className="mr-2 px-2 py-1 bg-secondaryLight text-white">
-              {' '}
               Tags
             </li>
             <li className="mr-2 px-2 py-1 bg-secondaryLight text-white">
-              {' '}
               Tags
             </li>
             <li className="mr-2 px-2 py-1 bg-secondaryLight text-white">
-              {' '}
               Tags
             </li>
             <li className="mr-2 px-2 py-1 bg-secondaryLight text-white">
-              {' '}
               Tags
             </li>
           </ul>
