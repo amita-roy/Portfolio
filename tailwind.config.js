@@ -34,6 +34,10 @@ module.exports = {
         '3/4': '75%',
         full: '100%',
       },
+
+      backgroundImage: (theme) => ({
+        'any-image': "url('/src/images/test.jpg')",
+      }),
     },
   },
   variants: {

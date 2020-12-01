@@ -4487,6 +4487,10 @@ video {
   background-image: linear-gradient(to top left, var(--tw-gradient-stops));
 }
 
+.bg-any-image{
+  background-image: url('/src/images/test.jpg');
+}
+
 .from-transparent{
   --tw-gradient-from: transparent;
   --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -14821,7 +14825,7 @@ video {
 }
 
 .min-h-0{
-  min-height: 0px;
+  min-height: 0;
 }
 
 .min-h-full{
@@ -14830,6 +14834,18 @@ video {
 
 .min-h-screen{
   min-height: 100vh;
+}
+
+.min-h-1\/4{
+  min-height: 25%;
+}
+
+.min-h-1\/2{
+  min-height: 50%;
+}
+
+.min-h-3\/4{
+  min-height: 75%;
 }
 
 .min-w-0{
@@ -34492,6 +34508,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .sm\:bg-any-image{
+    background-image: url('/src/images/test.jpg');
+  }
+
   .sm\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -44826,7 +44846,7 @@ video {
   }
 
   .sm\:min-h-0{
-    min-height: 0px;
+    min-height: 0;
   }
 
   .sm\:min-h-full{
@@ -44835,6 +44855,18 @@ video {
 
   .sm\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .sm\:min-h-1\/4{
+    min-height: 25%;
+  }
+
+  .sm\:min-h-1\/2{
+    min-height: 50%;
+  }
+
+  .sm\:min-h-3\/4{
+    min-height: 75%;
   }
 
   .sm\:min-w-0{
@@ -64454,6 +64486,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .md\:bg-any-image{
+    background-image: url('/src/images/test.jpg');
+  }
+
   .md\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -74788,7 +74824,7 @@ video {
   }
 
   .md\:min-h-0{
-    min-height: 0px;
+    min-height: 0;
   }
 
   .md\:min-h-full{
@@ -74797,6 +74833,18 @@ video {
 
   .md\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .md\:min-h-1\/4{
+    min-height: 25%;
+  }
+
+  .md\:min-h-1\/2{
+    min-height: 50%;
+  }
+
+  .md\:min-h-3\/4{
+    min-height: 75%;
   }
 
   .md\:min-w-0{
@@ -94416,6 +94464,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .lg\:bg-any-image{
+    background-image: url('/src/images/test.jpg');
+  }
+
   .lg\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -104750,7 +104802,7 @@ video {
   }
 
   .lg\:min-h-0{
-    min-height: 0px;
+    min-height: 0;
   }
 
   .lg\:min-h-full{
@@ -104759,6 +104811,18 @@ video {
 
   .lg\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .lg\:min-h-1\/4{
+    min-height: 25%;
+  }
+
+  .lg\:min-h-1\/2{
+    min-height: 50%;
+  }
+
+  .lg\:min-h-3\/4{
+    min-height: 75%;
   }
 
   .lg\:min-w-0{
@@ -124378,6 +124442,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .xl\:bg-any-image{
+    background-image: url('/src/images/test.jpg');
+  }
+
   .xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -134712,7 +134780,7 @@ video {
   }
 
   .xl\:min-h-0{
-    min-height: 0px;
+    min-height: 0;
   }
 
   .xl\:min-h-full{
@@ -134721,6 +134789,18 @@ video {
 
   .xl\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .xl\:min-h-1\/4{
+    min-height: 25%;
+  }
+
+  .xl\:min-h-1\/2{
+    min-height: 50%;
+  }
+
+  .xl\:min-h-3\/4{
+    min-height: 75%;
   }
 
   .xl\:min-w-0{
@@ -154340,6 +154420,10 @@ video {
     background-image: linear-gradient(to top left, var(--tw-gradient-stops));
   }
 
+  .\32xl\:bg-any-image{
+    background-image: url('/src/images/test.jpg');
+  }
+
   .\32xl\:from-transparent{
     --tw-gradient-from: transparent;
     --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgba(0, 0, 0, 0));
@@ -164674,7 +164758,7 @@ video {
   }
 
   .\32xl\:min-h-0{
-    min-height: 0px;
+    min-height: 0;
   }
 
   .\32xl\:min-h-full{
@@ -164683,6 +164767,18 @@ video {
 
   .\32xl\:min-h-screen{
     min-height: 100vh;
+  }
+
+  .\32xl\:min-h-1\/4{
+    min-height: 25%;
+  }
+
+  .\32xl\:min-h-1\/2{
+    min-height: 50%;
+  }
+
+  .\32xl\:min-h-3\/4{
+    min-height: 75%;
   }
 
   .\32xl\:min-w-0{

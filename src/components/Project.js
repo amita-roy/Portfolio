@@ -6,10 +6,14 @@ class Project extends Component {
     const cardClasses = classNames(
       'card border-2',
       'border-red-400',
-      'h-80',
+      'h-96',
       'shadow-md',
       'hover:shadow-2xl',
-      'cursor-pointer'
+      'cursor-pointer',
+      'bg-any-image',
+      'bg-cover',
+      'bg-center',
+      'bg-no-repeat'
     );
     return (
       <div className="mt-20">
