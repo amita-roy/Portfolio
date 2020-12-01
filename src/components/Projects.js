@@ -1,7 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
-
-class Project extends Component {
+import anyImage from '../images/test.jpg';
+class Projects extends Component {
   render() {
     const cardClasses = classNames(
       'card border-2',
@@ -10,17 +10,21 @@ class Project extends Component {
       'shadow-md',
       'hover:shadow-2xl',
       'cursor-pointer',
-      'bg-any-image',
+      // 'bg-any-image',
       'bg-cover',
       'bg-center',
       'bg-no-repeat'
     );
+    console.log(anyImage);
     return (
       <div className="mt-20">
         <h2 className="text-3xl font-display font-extrabold">My best works</h2>
         <div className="mt-10">
           <div className="grid grid-cols-2 gap-10">
-            <div className={cardClasses}></div>
+            <div
+              className={cardClasses}
+              style={{ backgroundImage: `url(${anyImage})` }}
+            ></div>
             <div className={cardClasses}></div>
           </div>
           <div className="grid grid-cols-3 gap-10 mt-10">
@@ -34,4 +38,4 @@ class Project extends Component {
   }
 }
 
-export default Project;
+export default Projects;
