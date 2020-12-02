@@ -2,7 +2,7 @@ import React, { Component } from 'react';
 import classNames from 'classnames';
 import { Button } from '../Button';
 import { Tag } from '../Tag';
-import styles from './Card.module.css';
+// import styles from './Card.module.css';
 
 class Card extends Component {
   render() {
@@ -21,7 +21,6 @@ class Card extends Component {
       'bg-no-repeat'
     );
     const { title, href, background } = this.props;
-    console.log(styles);
     return (
       <div
         className={cardClasses}

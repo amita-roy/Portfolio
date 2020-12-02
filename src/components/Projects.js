@@ -3,7 +3,6 @@ import { Card } from './Card';
 import anyImage from '../images/test.jpg';
 class Projects extends Component {
   render() {
-    console.log(anyImage);
     return (
       <div className="mt-20 px-20">
         <h2 className="text-3xl font-display font-extrabold">My best works</h2>

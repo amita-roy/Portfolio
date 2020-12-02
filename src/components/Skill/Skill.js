@@ -14,7 +14,9 @@ class Skill extends Component {
         </h3>
         <div className="flex mt-4 mb-4">
           {skills.map((skill) => (
-            <div className="text-grayLight text-sm mr-4">{skill}</div>
+            <div className="text-grayLight text-sm mr-4" key={skill}>
+              {skill}
+            </div>
           ))}
         </div>
       </div>
