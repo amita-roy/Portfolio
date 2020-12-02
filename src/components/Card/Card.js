@@ -25,7 +25,7 @@ class Card extends Component {
       <div
         className={cardClasses}
         style={{
-          backgroundImage: `linear-gradient(to bottom right, rgba(0,0,0,0.5), rgba(0,0,0,0.2), rgba(0,0,0,0.1)), url(${background})`,
+          backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(${background})`,
         }}
       >
         <div>
