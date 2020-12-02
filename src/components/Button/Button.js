@@ -20,7 +20,7 @@ class Button extends Component {
 
       {
         'bg-primary': type === 'primary',
-        'bg-secondaryLight': type === 'secondary',
+        'bg-secondary': type === 'secondary',
         block: !!block,
         'inline-block': !block,
       }
