@@ -8,8 +8,6 @@ class Card extends Component {
   render() {
     const cardClasses = classNames(
       'p-12',
-      'card border-2',
-      'border-red-400',
       'flex',
       'flex-col',
       'justify-between',

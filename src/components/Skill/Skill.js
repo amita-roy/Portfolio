@@ -9,7 +9,7 @@ class Skill extends Component {
     const { type, skills } = this.props;
     return (
       <div className="mb-6 border-b">
-        <h3 className="text-xl font-bold font-display">
+        <h3 className="text-lg font-bold font-display">
           {this.capitalize(type)}
         </h3>
         <div className="flex mt-4 mb-4">
