@@ -13,7 +13,7 @@ class Card extends Component {
       'flex',
       'flex-col',
       'justify-between',
-      'h-96',
+      'h-80',
       'shadow-md',
       'hover:shadow-2xl',
       'cursor-pointer',
