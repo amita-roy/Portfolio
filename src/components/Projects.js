@@ -5,7 +5,7 @@ class Projects extends Component {
   render() {
     console.log(anyImage);
     return (
-      <div className="mt-20">
+      <div className="mt-20 px-20">
         <h2 className="text-3xl font-display font-extrabold">My best works</h2>
         <div className="mt-10">
           <div className="grid grid-cols-2 gap-10">

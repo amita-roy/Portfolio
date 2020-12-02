@@ -22,7 +22,7 @@ class About extends Component {
       'Terminal',
     ];
     return (
-      <div className="h-96 mt-40 flex">
+      <div className="h-96 mt-40 flex px-20">
         <div className="h-full w-1/2">
           <h2 className="text-3xl font-display font-extrabold">About Me</h2>
           <p className="max-w-lg my-8">
