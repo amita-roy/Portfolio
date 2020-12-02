@@ -1,10 +1,10 @@
 import React, { Component } from 'react';
-import { SocialIconGroup } from '../Icon';
+import { SocialIconGroupPrimary } from '../Icon';
 
 export class Header extends Component {
   render() {
     return (
-      <div className="mt-20 h-72 flex flex-col justify-between">
+      <div className="mt-20 h-72 flex flex-col justify-between px-20">
         <div>
           <h1 className="text-6xl mb-6  max-w-lg font-display font-extrabold">
             Pretty code by ingenious person
@@ -21,7 +21,7 @@ export class Header extends Component {
           <p className="mr-12 text-grayLight font-semibold">
             My works in social networks
           </p>
-          <SocialIconGroup />
+          <SocialIconGroupPrimary />
         </div>
       </div>
     );

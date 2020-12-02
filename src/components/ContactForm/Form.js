@@ -17,9 +17,9 @@ class Form extends Component {
       'focus:outline-none'
     );
     return (
-      <div className="border border-red-400 w-1/3 m-auto">
+      <div className="w-1/3 m-auto">
         <form className="contact-form">
-          <div className="mb-6 grid grid-cols-2 gap-4">
+          <div className="mb-4 grid grid-cols-2 gap-4">
             <Input type="text" placeholder="Name" />
             <Input type="email" placeholder="Email" />
           </div>
