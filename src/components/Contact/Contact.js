@@ -9,7 +9,7 @@ class Contact extends Component {
         <h4 className="text-white text-3xl font-extrabold font-display mb-8">
           Interested in collaborating?
         </h4>
-        <p className="text-white text-sm max-w-lg m-auto mb-10">
+        <p className="text-white text-sm w-1/4 m-auto mb-10">
           If you have an application you are interested in developing, a feature
           that you need built or a project that need coding, I’d love to help
           you with it.
