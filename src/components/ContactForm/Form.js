@@ -1,9 +1,21 @@
 import React, { Component } from 'react';
+import classNames from 'classnames';
 import { Button } from '../Button';
 import { Input } from '../Input';
 
 class Form extends Component {
   render() {
+    const txtAreaClasses = classNames(
+      'w-full',
+      'mb-8',
+      'py-2',
+      'px-4',
+      'text-sm',
+      'border',
+      'border-transparent',
+      'focus:border-grayLight',
+      'focus:outline-none'
+    );
     return (
       <div className="border border-red-400 w-1/3 m-auto">
         <form className="contact-form">
@@ -13,11 +25,11 @@ class Form extends Component {
           </div>
           <textarea
             placeholder="Message"
-            className="w-full mb-8 py-2 px-4 text-sm "
+            className={txtAreaClasses}
             rows="6"
           ></textarea>
           <Button type="secondary" block={true}>
-            Get in toch
+            Get in touch
           </Button>
         </form>
       </div>
