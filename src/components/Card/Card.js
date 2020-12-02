@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import classNames from 'classnames';
 import { Button } from '../Button';
+import { Tag } from '../Tag';
 import styles from './Card.module.css';
 
 class Card extends Component {
@@ -34,20 +35,9 @@ class Card extends Component {
           <p className="text-3xl font-display font-extrabold text-white mb-3">
             {title}
           </p>
-          <ul className="flex">
-            <li className="mr-2 px-2 py-1 bg-secondaryLight text-white">
-              Tags
-            </li>
-            <li className="mr-2 px-2 py-1 bg-secondaryLight text-white">
-              Tags
-            </li>
-            <li className="mr-2 px-2 py-1 bg-secondaryLight text-white">
-              Tags
-            </li>
-            <li className="mr-2 px-2 py-1 bg-secondaryLight text-white">
-              Tags
-            </li>
-          </ul>
+          <div className="flex">
+            <Tag>Javascript</Tag>
+          </div>
         </div>
         <div>
           <Button href={href}>See the project</Button>
