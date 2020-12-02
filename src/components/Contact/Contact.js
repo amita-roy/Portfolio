@@ -15,13 +15,14 @@ class Contact extends Component {
           you with it.
         </p>
         <Form />
-        <div className="mt-10 max-w-1/3 flex justify-center items-center">
+        <div className="mt-10 w-1/3 mx-auto flex justify-center items-center pb-8 border-b border-borderLight">
           <p className="text-primaryLight text-xs mr-3">
             amita.roy@workmail.com
           </p>
 
           <SocialIconGroupLight />
         </div>
+        <p className="text-primaryLight text-xs mt-6">© 2020 Amita</p>
       </div>
     );
   }

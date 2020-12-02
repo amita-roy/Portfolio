@@ -18,6 +18,7 @@ module.exports = {
         secondaryLight: '#423B39',
         white: '#FFF',
         border: '#CFD2DA',
+        borderLight: '#FFA07D',
         placeholder: '#B0B4BD',
         grayLight: '#727274',
       },
