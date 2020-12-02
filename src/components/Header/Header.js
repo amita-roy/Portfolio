@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import SocialIconGroup from './SocialIconGroup';
+import { SocialIconGroup } from '../Icon';
 
 export class Header extends Component {
   render() {

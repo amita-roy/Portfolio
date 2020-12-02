@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Nav from './components/Nav';
-import Header from './components/Header';
+import { Header } from './components/Header';
 import Projects from './components/Projects';
 
 class App extends Component {
