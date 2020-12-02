@@ -11,11 +11,12 @@ class Button extends Component {
   render() {
     const { type, href, block } = this.props;
     const anchorClasses = classNames(
-      'py-3',
+      'py-2',
       'px-6',
       'text-white',
       'mb-50',
       'shadow-lg',
+      'text-center',
 
       {
         'bg-primary': type === 'primary',
