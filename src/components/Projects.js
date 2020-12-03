@@ -18,10 +18,10 @@ class Projects extends Component {
 
   render() {
     return (
-      <div className="mt-20 md:px-20 px-8" id="portfolio">
+      <div className="mt-20  md:px-20 px-4" id="portfolio">
         <h2 className="text-3xl font-display font-extrabold">My best works</h2>
         <div className="mt-10">
-          <div className="grid grid-cols-2 gap-10">
+          <div className="grid md:grid-cols-2 gap-10">
             <Card
               title="My Project"
               background={anyImage}
@@ -29,7 +29,7 @@ class Projects extends Component {
             />
             <Card title="My Project" openModal={this.onOpenModal} />
           </div>
-          <div className="grid grid-cols-3 gap-10 mt-10">
+          <div className="grid md:grid-cols-3 gap-10 mt-10">
             <Card title="My Project" openModal={this.onOpenModal} />
             <Card title="My Project" openModal={this.onOpenModal} />
             <Card title="My Project" openModal={this.onOpenModal} />

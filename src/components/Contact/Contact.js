@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <div
-        className="bg-primary py-10 px-10 md:px-0 text-center mt-20 md:mt-0"
+        className="bg-primary py-10 px-10 md:px-0 text-center md:mt-10 "
         id="contact"
       >
         <h4 className="text-white text-2xl md:text-3xl font-extrabold font-display mb-8">
@@ -18,12 +18,13 @@ class Contact extends Component {
           you with it.
         </p>
         <Form />
-        <div className="mt-10 w-1/3 mx-auto flex justify-center items-center pb-8 border-b border-borderLight">
+        <div className=" w-full mt-10 md:w-1/3 mx-auto sm:flex sm:justify-center sm:items-center pb-8 border-b border-borderLight">
           <p className="text-primaryLight text-xs mr-3">
             amita.roy@workmail.com
           </p>
-
-          <SocialIconGroupLight />
+          <div className="mt-3 sm:mt-0 flex justify-center md:block">
+            <SocialIconGroupLight />
+          </div>
         </div>
         <p className="text-primaryLight text-xs mt-6">© 2020 Amita</p>
       </div>

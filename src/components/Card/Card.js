@@ -7,7 +7,8 @@ import { Tag } from '../Tag';
 class Card extends Component {
   render() {
     const cardClasses = classNames(
-      'p-12',
+      'md:p-12',
+      'p-4',
       'flex',
       'flex-col',
       'justify-between',

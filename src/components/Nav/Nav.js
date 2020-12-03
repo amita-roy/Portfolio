@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from '../Link';
-import styles from './Nav.module.css';
+// import styles from './Nav.module.css';
 import classNames from 'classnames';
 // import './helper';
 
@@ -12,13 +12,14 @@ class Nav extends Component {
       'justify-between',
       'h-5',
       'py-10',
-      'px-20',
+      'md:px-20',
+      'px-4',
       'fixed',
       'top-0',
       'w-full'
     );
     return (
-      <div className={`${navClasses} ${styles.navTransparent}`} id="fixed-nav">
+      <div className={`${navClasses}`} id="fixed-nav">
         <div className="brand">
           <h1>
             <a href="/">ar</a>

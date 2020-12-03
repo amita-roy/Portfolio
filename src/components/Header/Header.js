@@ -5,12 +5,12 @@ export class Header extends Component {
   render() {
     return (
       <div
-        className="mt-40 h-72 flex flex-col justify-between md:px-20 px-8"
+        className="mt-40 md:h-72 flex flex-col justify-between md:px-20 px-4"
         id="intro"
       >
         <div>
           <div>
-            <h1 className="text-6xl mb-6  md:max-w-lg font-display font-extrabold">
+            <h1 className=" text-3xl md:text-5xl lg:text-6xl mb-6  md:max-w-lg font-display font-extrabold">
               Pretty code by ingenious person
             </h1>
 
@@ -23,7 +23,7 @@ export class Header extends Component {
           </div>
           <div></div>
         </div>
-        <div className="md:flex md:items-center mt-3 md:mt-0">
+        <div className="md:flex md:items-center mt-10 md:mt-0">
           <p className="mr-12 text-grayLight font-semibold">
             My works in social networks
           </p>

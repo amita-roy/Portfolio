@@ -23,7 +23,7 @@ class About extends Component {
     ];
     return (
       <div
-        className="h-96 mt-20 md:mt-40 md:flex md:px-20 px-8 mb-10 md:mb-0"
+        className="mt-10 md:mt-20 md:flex md:px-20 px-4 mb-10 md:mb-0"
         id="about"
       >
         <div className="md:h-full md:w-1/2 md:pr-6">
