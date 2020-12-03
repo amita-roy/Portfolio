@@ -1,15 +1,9 @@
 import React, { Component } from 'react';
+import ReactModal from 'react-modal';
 
 class Modal extends Component {
-  constructor(props) {
-    super(props);
-
-    this.state = {
-      isOpen: false,
-    };
-  }
-
   render() {
+    const { isOpen, onClose } = this.props;
     return <div></div>;
   }
 }

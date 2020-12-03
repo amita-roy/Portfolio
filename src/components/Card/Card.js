@@ -20,7 +20,8 @@ class Card extends Component {
       'bg-center',
       'bg-no-repeat'
     );
-    const { title, href, background } = this.props;
+    const { title, background } = this.props;
+
     return (
       <div
         className={cardClasses}
@@ -37,7 +38,7 @@ class Card extends Component {
           </div>
         </div>
         <div>
-          <Button href={href}>See the project</Button>
+          <Button onClick={this.props.openModal}>See the project</Button>
         </div>
       </div>
     );
