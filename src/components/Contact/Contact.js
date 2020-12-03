@@ -5,7 +5,7 @@ import { SocialIconGroupLight } from '../Icon';
 class Contact extends Component {
   render() {
     return (
-      <div className="bg-primary py-10 text-center">
+      <div className="bg-primary py-10 text-center" id="contact">
         <h4 className="text-white text-3xl font-extrabold font-display mb-8">
           Interested in collaborating?
         </h4>

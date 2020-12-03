@@ -12,7 +12,7 @@ export class Link extends Component {
       'text-primary': url.includes(id),
     });
     return (
-      <a href={`/${id}`} className={linkClassnames}>
+      <a href={`#${id}`} className={linkClassnames}>
         {this.props.children}
       </a>
     );

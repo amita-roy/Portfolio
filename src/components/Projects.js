@@ -4,7 +4,7 @@ import anyImage from '../images/test.jpg';
 class Projects extends Component {
   render() {
     return (
-      <div className="mt-20 px-20">
+      <div className="mt-20 px-20" id="portfolio">
         <h2 className="text-3xl font-display font-extrabold">My best works</h2>
         <div className="mt-10">
           <div className="grid grid-cols-2 gap-10">

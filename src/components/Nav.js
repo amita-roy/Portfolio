@@ -11,7 +11,7 @@ class Nav extends Component {
           </h1>
         </div>
         <div className="links">
-          <Link id="home">Intro</Link>
+          <Link id="intro">Intro</Link>
           <Link id="portfolio">Portfolio</Link>
           <Link id="about">About</Link>
           <Link id="contact">Contact</Link>

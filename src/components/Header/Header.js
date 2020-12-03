@@ -4,7 +4,10 @@ import { SocialIconGroupPrimary } from '../Icon';
 export class Header extends Component {
   render() {
     return (
-      <div className="mt-20 h-72 flex flex-col justify-between px-20">
+      <div
+        className="mt-20 h-72 flex flex-col justify-between px-20"
+        id="intro"
+      >
         <div>
           <div>
             <h1 className="text-6xl mb-6  max-w-lg font-display font-extrabold">
