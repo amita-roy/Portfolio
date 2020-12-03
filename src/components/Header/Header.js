@@ -5,7 +5,7 @@ export class Header extends Component {
   render() {
     return (
       <div
-        className="mt-20 h-72 flex flex-col justify-between px-20"
+        className="mt-40 h-72 flex flex-col justify-between px-20"
         id="intro"
       >
         <div>
