@@ -52,10 +52,23 @@ class Modal extends Component {
           </div>
         </div>
         <button
-          className="h-10 bg-primary py-2 px-2 text-white absolute top-0 right-0 focus:outline-none"
+          className="h-10 bg-primary p-2 text-white absolute top-0 right-0 focus:outline-none"
           onClick={onClose}
         >
-          Close
+          <svg
+            xmlns="http://www.w3.org/2000/svg"
+            fill="#fff"
+            viewBox="0 0 24 24"
+            stroke="currentColor"
+            className={styles.cross}
+          >
+            <path
+              stroke-linecap="round"
+              stroke-linejoin="round"
+              stroke-width="3"
+              d="M6 18L18 6M6 6l12 12"
+            />
+          </svg>
         </button>
       </ReactModal>
     );
