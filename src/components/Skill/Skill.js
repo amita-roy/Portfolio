@@ -8,11 +8,11 @@ class Skill extends Component {
   render() {
     const { type, skills } = this.props;
     return (
-      <div className="mb-6 border-b">
+      <div className="mb-4 md:mb-6 border-b">
         <h3 className="text-lg font-bold font-display">
           {this.capitalize(type)}
         </h3>
-        <div className="flex mt-4 mb-4">
+        <div className="flex mt-4 mb-4 flex-wrap">
           {skills.map((skill) => (
             <div className="text-grayLight text-sm mr-4" key={skill}>
               {skill}
