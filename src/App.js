@@ -8,7 +8,7 @@ import { Contact } from './components/Contact';
 class App extends Component {
   render() {
     return (
-      <div className="h-screen">
+      <div className="h-screen" id="app">
         <Nav />
         <Header />
         <Projects />
