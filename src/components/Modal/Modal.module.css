@@ -1,0 +1,28 @@
+.Modal {
+  position: absolute;
+  top: 60px;
+  left: 60px;
+  right: 60px;
+  bottom: 60px;
+  background-color: #fff;
+  max-width: 700px;
+  height: 700px;
+  margin: auto;
+  outline: none;
+  box-shadow: 0 0 20px rgba(83, 83, 83, 0.4);
+}
+
+.Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(256, 256, 256, 0.7);
+}
+
+.topImage {
+  background-size: cover;
+  background-position: center;
+  background-image: url('https://images.ctfassets.net/hrltx12pl8hq/4plHDVeTkWuFMihxQnzBSb/aea2f06d675c3d710d095306e377382f/shutterstock_554314555_copy.jpg');
+}
