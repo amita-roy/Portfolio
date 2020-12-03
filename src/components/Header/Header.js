@@ -24,7 +24,7 @@ export class Header extends Component {
           <div></div>
         </div>
         <div className="md:flex md:items-center mt-10 md:mt-0">
-          <p className="mr-12 text-grayLight font-semibold">
+          <p className="sm:mr-12 text-grayLight font-semibold">
             My works in social networks
           </p>
           <div className=" mt-3 md:mt-0">
