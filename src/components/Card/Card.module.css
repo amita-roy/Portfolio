@@ -1,3 +1,14 @@
-.card {
-  position: absolute;
+.cardTags {
+  display: none;
+}
+.cardButton {
+  display: none;
+}
+
+.card:hover .cardTags {
+  display: flex;
+}
+
+.card:hover .cardButton {
+  display: inline-block;
 }
