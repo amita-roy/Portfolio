@@ -33,7 +33,7 @@
   width: 22px;
 }
 
-@media (max-width: 640px) {
+@media (max-width: 823px) {
   .Modal {
     top: 20px;
     left: 20px;

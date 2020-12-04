@@ -28,7 +28,12 @@ class Button extends Component {
     );
 
     return (
-      <a className={anchorClasses} href={href} onClick={this.props.onClick}>
+      <a
+        className={anchorClasses}
+        href={href}
+        onClick={this.props.onClick}
+        target="blank"
+      >
         {this.props.children}
       </a>
     );
