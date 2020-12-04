@@ -4,7 +4,12 @@ class SocialIconGroupPrimary extends Component {
   render() {
     return (
       <div className="flex items-center">
-        <div className="social-icons w-6">
+        <a
+          href="https://github.com/Amita-Roy"
+          target="blank"
+          className="social-icons w-6"
+          alt="github"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.172 256.819">
             <g id="github" transform="translate(-1484 -70)">
               <path
@@ -17,8 +22,13 @@ class SocialIconGroupPrimary extends Component {
               />
             </g>
           </svg>
-        </div>
-        <div className="social-icons w-6 ml-3">
+        </a>
+        <a
+          href="https://www.instagram.com/"
+          target="blank"
+          className="social-icons w-6 ml-3"
+          alt="instagram"
+        >
           <svg
             id="insta"
             xmlns="http://www.w3.org/2000/svg"
@@ -40,8 +50,13 @@ class SocialIconGroupPrimary extends Component {
               fillRule="evenodd"
             />
           </svg>
-        </div>
-        <div className="social-icons w-6 ml-3">
+        </a>
+        <a
+          href="https://www.linkedin.com/in/amita-roy/"
+          target="blank"
+          className="social-icons w-6 ml-3"
+          alt="linkedin"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 224.181 213.972">
             <g id="linkedin" transform="translate(-758 -55)">
               <path
@@ -54,8 +69,13 @@ class SocialIconGroupPrimary extends Component {
               />
             </g>
           </svg>
-        </div>
-        <div className="social-icons w-6 ml-3">
+        </a>
+        <a
+          href="https://medium.com/@sardana.amita2"
+          target="blank"
+          alt="medium"
+          className="social-icons w-6 ml-3"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 227.531 227.531">
             <g id="medium" transform="translate(-1119 -85)">
               <path
@@ -68,8 +88,13 @@ class SocialIconGroupPrimary extends Component {
               />
             </g>
           </svg>
-        </div>
-        <div className="social-icons w-6 ml-3">
+        </a>
+        <a
+          href="https://twitter.com/AmitaRoy14"
+          target="blank"
+          alt="twitter"
+          className="social-icons w-6 ml-3"
+        >
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 222.828 184.144">
             <g id="twitter" transform="translate(-398 -84.829)">
               <path
@@ -82,7 +107,7 @@ class SocialIconGroupPrimary extends Component {
               />
             </g>
           </svg>
-        </div>
+        </a>
       </div>
     );
   }

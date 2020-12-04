@@ -7,7 +7,7 @@ import styles from './Card.module.css';
 class Card extends Component {
   render() {
     const cardClasses = classNames(
-      'md:p-12',
+      'lg:p-10',
       'p-4',
       'flex',
       'flex-col',
@@ -32,7 +32,7 @@ class Card extends Component {
           }}
         >
           <div>
-            <p className="text-3xl font-display font-extrabold text-white mb-3">
+            <p className="text-2xl lg:text-3xl font-display font-extrabold text-white mb-3">
               {title}
             </p>
             <div className={`${styles.Tags} ${styles.Element}`}>

@@ -8,7 +8,9 @@ class Tag extends Component {
       'px-2',
       'py-1',
       'bg-secondaryLight',
-      'text-white'
+      'text-white',
+      'text-xs',
+      'sm:text-sm'
     );
     return <div className={tagClasses}>{this.props.children}</div>;
   }
