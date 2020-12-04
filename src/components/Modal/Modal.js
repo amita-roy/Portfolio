@@ -15,16 +15,16 @@ class Modal extends Component {
         className={`relative ${styles.Modal}`}
         overlayClassName={styles.Overlay}
       >
-        <div className={`h-1/2 ${styles.topImage}`}></div>
-        <div className="h-1/2 py-3 px-5">
-          <div className="topContent flex  justify-between mt-3">
+        <div className={styles.HeroImage}></div>
+        <div className="py-4 px-5">
+          <div className="topContent md:flex md:justify-between mt-2 md:mt-3">
             <div className="thumbnails flex">
               <div className="h-10 w-16 border bg-purple-800"></div>
               <div className="h-10 w-16 border bg-purple-800 ml-3"></div>
               <div className="h-10 w-16 border bg-purple-800 ml-3"></div>
             </div>
-            <div className="buttonLinks flex flex-col">
-              <button className=" block bg-primary py-2 text-white px-6 mb-4 text-sm">
+            <div className="buttonLinks flex flex-col mt-4 md:mt-0">
+              <button className=" block bg-primary py-2 text-white px-6 mb-2 md:mb-4 text-sm">
                 See live
               </button>
               <button className=" block bg-primary py-2 text-white px-6 text-sm">
@@ -32,11 +32,11 @@ class Modal extends Component {
               </button>
             </div>
           </div>
-          <div className="bottomContent">
-            <h3 className="font-display text-3xl font-extrabold text-secondary">
+          <div className="bottomContent mt-6 md:mt-0">
+            <h3 className="font-display text-xl md:text-3xl font-extrabold text-secondary">
               My Project
             </h3>
-            <div className="tags mt-2 mb-5">
+            <div className="tags mt-2 mb-3 md:mb-5">
               <span className="mr-2">Tags</span>
               <span className="mr-2">Tags</span>
               <span className="mr-2">Tags</span>
@@ -60,12 +60,12 @@ class Modal extends Component {
             fill="#fff"
             viewBox="0 0 24 24"
             stroke="currentColor"
-            className={styles.cross}
+            className={styles.Close}
           >
             <path
-              stroke-linecap="round"
-              stroke-linejoin="round"
-              stroke-width="3"
+              strokeLinecap="round"
+              strokeLinejoin="round"
+              strokeWidth="3"
               d="M6 18L18 6M6 6l12 12"
             />
           </svg>

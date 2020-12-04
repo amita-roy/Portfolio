@@ -11,12 +11,14 @@ class Nav extends Component {
       'items-center',
       'justify-between',
       'h-5',
-      'py-10',
+      'py-5',
+      'h-20',
       'md:px-20',
       'px-4',
       'fixed',
       'top-0',
-      'w-full'
+      'w-full',
+      'bg-body'
     );
     return (
       <div className={`${navClasses}`} id="fixed-nav">
