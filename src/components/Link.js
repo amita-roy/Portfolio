@@ -6,11 +6,13 @@ export class Link extends Component {
     id: '',
   };
   render() {
-    const url = window.location.href;
     const { id } = this.props;
-    const linkClassnames = classNames('text-sm', 'ml-5', {
-      'text-primary': url.includes(id),
-    });
+    const linkClassnames = classNames(
+      'text-sm',
+      'ml-5',
+      'focus:text-primary',
+      'hover:text-primary'
+    );
     return (
       <a href={`#${id}`} className={linkClassnames}>
         {this.props.children}
