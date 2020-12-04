@@ -29,7 +29,7 @@ class Projects extends Component {
             />
             <Card title="My Project" openModal={this.onOpenModal} />
           </div>
-          <div className="grid md:grid-cols-3 gap-10 mt-10">
+          <div className="grid lg:grid-cols-3 gap-10 mt-10">
             <Card title="My Project" openModal={this.onOpenModal} />
             <Card title="My Project" openModal={this.onOpenModal} />
             <Card title="My Project" openModal={this.onOpenModal} />
