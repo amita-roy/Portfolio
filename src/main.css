@@ -30720,6 +30720,10 @@ html {
   scroll-behavior: smooth;
 }
 
+body {
+  background-color: #f2f2f2;
+}
+
 @media (min-width: 640px){
   .sm\:container{
     width: 100%;

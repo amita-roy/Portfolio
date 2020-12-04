@@ -16,8 +16,8 @@ export class Header extends Component {
 
             <p className="w-full md:max-w-xl text-sm text-grayLight font-body">
               Hello I am a software developer! I can help you build a product,
-              featre or website. Look through some of my work and experience! If
-              you like what you see and have project you need coded, don’t
+              feature or website. Look through some of my work and experience!
+              If you like what you see and have project you need coded, don’t
               hesistate to contact me.
             </p>
           </div>
