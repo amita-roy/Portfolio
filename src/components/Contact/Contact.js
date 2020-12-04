@@ -6,7 +6,7 @@ class Contact extends Component {
   render() {
     return (
       <div
-        className="bg-primary py-10 px-10 md:px-0 text-center md:mt-10 "
+        className="bg-primary py-10 px-4 md:px-0 text-center md:mt-10 "
         id="contact"
       >
         <h4 className="text-white text-2xl md:text-3xl font-extrabold font-display mb-8">

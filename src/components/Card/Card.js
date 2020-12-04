@@ -24,21 +24,35 @@ class Card extends Component {
     const { title, background } = this.props;
 
     return (
-      <div
-        className={`${cardClasses} ${styles.card}`}
-        style={{
-          backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(${background})`,
-        }}
-      >
-        <div>
-          <p className="text-3xl font-display font-extrabold text-white mb-3">
-            {title}
-          </p>
-          <div className={styles.cardTags}>
-            <Tag>Javascript</Tag>
+      <div>
+        <div
+          className={`${cardClasses} ${styles.Card}`}
+          style={{
+            backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(${background})`,
+          }}
+        >
+          <div>
+            <p className="text-3xl font-display font-extrabold text-white mb-3">
+              {title}
+            </p>
+            <div className={`${styles.Tags} ${styles.Element}`}>
+              <Tag>Javascript</Tag>
+              <Tag>HTML/CSS</Tag>
+              <Tag>Ruby on Rails</Tag>
+            </div>
+          </div>
+          <div className={`${styles.Button} ${styles.Element}`}>
+            <Button onClick={this.props.openModal}>See the project</Button>
           </div>
         </div>
-        <div className={styles.cardButton}>
+
+        <div className={styles.smallScreenTags}>
+          <Tag>Javascript</Tag>
+          <Tag>HTML/CSS</Tag>
+          <Tag>Ruby on Rails</Tag>
+        </div>
+
+        <div className={styles.smallScreenButton}>
           <Button onClick={this.props.openModal}>See the project</Button>
         </div>
       </div>

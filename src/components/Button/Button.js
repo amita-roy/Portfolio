@@ -17,6 +17,7 @@ class Button extends Component {
       'mb-50',
       'shadow-lg',
       'text-center',
+      'hover:bg-primaryDark',
 
       {
         'bg-primary': type === 'primary',

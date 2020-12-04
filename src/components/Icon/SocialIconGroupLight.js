@@ -3,7 +3,7 @@ import React, { Component } from 'react';
 class SocialIconGroupLight extends Component {
   render() {
     return (
-      <div className="flex items-center justify-between sm:justify-start w-full">
+      <div className="flex items-center justify-evenly sm:justify-start w-full">
         <div className="social-icons w-6">
           <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 261.172 256.819">
             <g id="github" transform="translate(-1484 -70)">
