@@ -18,28 +18,24 @@ class Card extends Component {
       'cursor-pointer',
       // 'bg-any-image',
       'bg-cover',
-      'bg-center',
       'bg-no-repeat'
     );
-    const { title, background } = this.props;
-
+    const { title, background, tags } = this.props;
+    const tagList = tags.map((tag) => <Tag>{tag}</Tag>);
+    console.log(background);
     return (
       <div>
         <div
           className={`${cardClasses} ${styles.Card}`}
           style={{
-            backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.15) 0%, rgba(0, 0, 0, 0) 98.35%), url(${background})`,
+            backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 98.35%), url(${background})`,
           }}
         >
           <div>
             <p className="text-2xl lg:text-3xl font-display font-extrabold text-white mb-3">
               {title}
             </p>
-            <div className={`${styles.Tags} ${styles.Element}`}>
-              <Tag>Javascript</Tag>
-              <Tag>HTML/CSS</Tag>
-              <Tag>Ruby on Rails</Tag>
-            </div>
+            <div className={`${styles.Tags} ${styles.Element}`}>{tagList}</div>
           </div>
           <div className={`${styles.Button} ${styles.Element}`}>
             <Button onClick={this.props.openModal}>See the project</Button>

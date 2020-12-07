@@ -5,12 +5,13 @@ class Tag extends Component {
   render() {
     const tagClasses = classNames(
       'mr-2',
-      'px-2',
+      'px-4',
       'py-1',
-      'bg-secondaryLight',
+      'bg-primaryLight',
       'text-white',
       'text-xs',
-      'sm:text-sm'
+      'sm:text-sm',
+      'text-secondary'
     );
     return <div className={tagClasses}>{this.props.children}</div>;
   }
