@@ -1,0 +1,42 @@
+[
+  {
+    "id": 1,
+    "title": "Global Summit",
+    "tags": ["HTML/CSS", "Bootstrap"],
+    "repository": "https://github.com/Amita-Roy/global-summit-2020",
+    "live": "https://wonderful-lichterman-cecf3b.netlify.app/",
+    "image": "https://github.com/Amita-Roy/global-summit-2020/blob/master/assets/images/global-summit-2020.png"
+  },
+  {
+    "id": 2,
+    "title": "CSS Linter",
+    "tags": ["Ruby", "CSS"],
+    "repository": "https://github.com/Amita-Roy/Ruby_Capstone_CSS_Linter",
+    "live": "https://github.com/Amita-Roy/Ruby_Capstone_CSS_Linter",
+    "image": "https://github.com/Amita-Roy/Ruby_Capstone_CSS_Linter/blob/master/.github/valid_units.png"
+  },
+  {
+    "id": 3,
+    "title": "herSTYLE",
+    "tags": ["Ruby", "Ruby on Rails", "Scss", "HTML/ERB"],
+    "repository": "https://github.com/Amita-Roy/ROR-Capstone-Her_Style/tree/development",
+    "live": "https://wonderful-lichterman-cecf3b.netlify.app/",
+    "image": "https://github.com/Amita-Roy/ROR-Capstone-Her_Style/blob/development/app/assets/images/IMac.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Hacker News Clone",
+    "tags": ["React", "Javascript"],
+    "repository": "https://github.com/Amita-Roy/HackerNews-Clone",
+    "live": "https://github.com/Amita-Roy/HackerNews-Clone",
+    "image": "https://github.com/Amita-Roy/HackerNews-Clone/blob/master/src/assets/images/ss1.png"
+  },
+  {
+    "id": 5,
+    "title": "Bicycle Landing Page",
+    "tags": ["HTML/CSS"],
+    "repository": "https://github.com/Amita-Roy/Fcc-Landing-page",
+    "live": "https://ecstatic-roentgen-6fc833.netlify.app/",
+    "image": "https://github.com/Amita-Roy/Fcc-Landing-page/blob/master/images/screenshot-1.png"
+  }
+]
