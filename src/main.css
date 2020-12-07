@@ -30721,10 +30721,16 @@ html {
 }
 
 body {
-  background: url('./images/background-pattern.png'), #f2f2f2;
-  background-position: right 0;
-  background-size: 400px;
-  background-repeat: no-repeat;
+  background-color: #f2f2f2;
+}
+
+@media (min-width: 1024px) {
+  body {
+    background: url('./images/background-pattern.png'), #f2f2f2;
+    background-position: top right -48px;
+    background-size: 500px;
+    background-repeat: no-repeat;
+  }
 }
 
 @media (min-width: 640px){
