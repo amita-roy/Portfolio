@@ -17,9 +17,10 @@ class Button extends Component {
       'mb-50',
       'shadow-lg',
       'text-center',
-      'hover:bg-primaryDark',
+      'cursor-pointer',
 
       {
+        'hover:bg-primaryDark': type === 'primary',
         'bg-primary': type === 'primary',
         'bg-secondary': type === 'secondary',
         block: !!block,
