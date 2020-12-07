@@ -1,13 +1,20 @@
 import React, { Component } from 'react';
+import classNames from 'classnames';
+import styles from './Header.module.css';
 import { SocialIconGroupPrimary } from '../Icon';
 
 export class Header extends Component {
   render() {
+    const introClassnames = classNames(
+      'md:h-72',
+      'flex',
+      'flex-col',
+      'justify-between',
+      'md:px-20',
+      'px-4'
+    );
     return (
-      <div
-        className="mt-40 md:h-72 flex flex-col justify-between md:px-20 px-4"
-        id="intro"
-      >
+      <div className={`${styles.intro} ${introClassnames}`} id="intro">
         <div>
           <div>
             <h1 className=" text-3xl md:text-5xl lg:text-6xl mb-6  md:max-w-lg font-display font-extrabold">
@@ -21,7 +28,6 @@ export class Header extends Component {
               hesistate to contact me.
             </p>
           </div>
-          <div></div>
         </div>
         <div className="md:flex md:items-center mt-10 md:mt-0">
           <p className="sm:mr-12 text-grayLight font-semibold">

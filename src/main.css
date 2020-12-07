@@ -30721,7 +30721,10 @@ html {
 }
 
 body {
-  background-color: #f2f2f2;
+  background: url('./images/background-pattern.png'), #f2f2f2;
+  background-position: right 0;
+  background-size: 400px;
+  background-repeat: no-repeat;
 }
 
 @media (min-width: 640px){
