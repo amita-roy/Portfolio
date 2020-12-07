@@ -18,11 +18,16 @@ class Card extends Component {
       'cursor-pointer',
       // 'bg-any-image',
       'bg-cover',
+      'bg-center',
       'bg-no-repeat'
     );
     const { title, background, tags } = this.props;
-    const tagList = tags.map((tag) => <Tag>{tag}</Tag>);
-    console.log(background);
+    const tagListLight = tags.map((tag) => (
+      <Tag color="primaryLight">{tag}</Tag>
+    ));
+    const tagListDark = tags.map((tag) => (
+      <Tag color="secondaryLight">{tag}</Tag>
+    ));
     return (
       <div>
         <div
@@ -35,18 +40,16 @@ class Card extends Component {
             <p className="text-2xl lg:text-3xl font-display font-extrabold text-white mb-3">
               {title}
             </p>
-            <div className={`${styles.Tags} ${styles.Element}`}>{tagList}</div>
+            <div className={`${styles.Tags} ${styles.Element}`}>
+              {tagListLight}
+            </div>
           </div>
           <div className={`${styles.Button} ${styles.Element}`}>
             <Button onClick={this.props.openModal}>See the project</Button>
           </div>
         </div>
 
-        <div className={styles.smallScreenTags}>
-          <Tag>Javascript</Tag>
-          <Tag>HTML/CSS</Tag>
-          <Tag>Ruby on Rails</Tag>
-        </div>
+        <div className={styles.smallScreenTags}>{tagListDark}</div>
 
         <div className={styles.smallScreenButton}>
           <Button onClick={this.props.openModal}>See the project</Button>
