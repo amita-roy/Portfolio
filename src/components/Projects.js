@@ -27,12 +27,28 @@ class Projects extends Component {
               background={anyImage}
               openModal={this.onOpenModal}
             />
-            <Card title="My Project" openModal={this.onOpenModal} />
+            <Card
+              title="My Project"
+              openModal={this.onOpenModal}
+              background={anyImage}
+            />
           </div>
           <div className="grid lg:grid-cols-3 gap-10 mt-10">
-            <Card title="My Project" openModal={this.onOpenModal} />
-            <Card title="My Project" openModal={this.onOpenModal} />
-            <Card title="My Project" openModal={this.onOpenModal} />
+            <Card
+              title="My Project"
+              openModal={this.onOpenModal}
+              background={anyImage}
+            />
+            <Card
+              title="My Project"
+              openModal={this.onOpenModal}
+              background={anyImage}
+            />
+            <Card
+              title="My Project"
+              openModal={this.onOpenModal}
+              background={anyImage}
+            />
           </div>
         </div>
         <Modal isOpen={this.state.isModalOpen} onClose={this.onCloseModal} />
