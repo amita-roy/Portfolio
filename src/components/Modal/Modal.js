@@ -8,33 +8,57 @@ import styles from './Modal.module.css';
 ReactModal.setAppElement('#root');
 
 class Modal extends Component {
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      index: 0,
+    };
+  }
+
+  onThumbnailClick = (index) => {
+    this.setState({ index });
+  };
+
+  onModelClose = () => {
+    this.setState({ index: 0 });
+    this.props.onClose();
+  };
+
   render() {
-    const { isOpen, onClose, project } = this.props;
+    const { isOpen, project } = this.props;
     if (!project) {
       return null;
     }
     const tagList = project.tags.map((tag) => (
       <Tag color="secondaryLight">{tag}</Tag>
     ));
-    console.log(project.tags);
+
+    const thumbnails = project.thumbnails.map((thumbnail, index) => (
+      <Thumbnail
+        background={thumbnail}
+        onClick={() => this.onThumbnailClick(index)}
+      />
+    ));
+    const heroSource = project.thumbnails[this.state.index];
     return (
       <ReactModal
         isOpen={isOpen}
-        onRequestClose={onClose}
+        onRequestClose={this.onModelClose}
         contentLabel="Example Modal"
         className={`relative ${styles.Modal}`}
         overlayClassName={styles.Overlay}
       >
-        <div className={styles.HeroImage}></div>
+        <div className={styles.HeroImage}>
+          <img
+            src={heroSource}
+            alt="global summit"
+            className={`w-full ${styles.image}`}
+          />
+        </div>
         <div className="py-4 px-6">
           <div className="topContent md:flex md:justify-between mt-2 md:mt-3">
-            <div className="thumbnails flex justify-between">
-              <Thumbnail />
-
-              <Thumbnail />
-
-              <Thumbnail />
-            </div>
+            <div className="thumbnails flex justify-between">{thumbnails}</div>
             <div className="buttonLinks flex flex-col mt-4 md:mt-0 ">
               <Button href={project.live}>
                 <div className="relative">
@@ -98,7 +122,7 @@ class Modal extends Component {
         </div>
         <button
           className="h-10 bg-primary p-2 text-white absolute top-0 right-0 focus:outline-none"
-          onClick={onClose}
+          onClick={this.onModelClose}
         >
           <svg
             xmlns="http://www.w3.org/2000/svg"
