@@ -49,13 +49,12 @@ class Modal extends Component {
         className={`relative ${styles.Modal}`}
         overlayClassName={styles.Overlay}
       >
-        <div className={styles.HeroImage}>
-          <img
-            src={heroSource}
-            alt="global summit"
-            className={`w-full ${styles.image}`}
-          />
-        </div>
+        <div
+          className={styles.HeroImage}
+          style={{
+            backgroundImage: `url(${heroSource})`,
+          }}
+        ></div>
         <div className="py-4 px-6">
           <div className="topContent md:flex md:justify-between mt-2 md:mt-3">
             <div className="thumbnails flex justify-between">{thumbnails}</div>
