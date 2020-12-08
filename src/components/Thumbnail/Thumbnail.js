@@ -4,13 +4,16 @@ import styles from './Thumbnail.module.css';
 
 class Thumbnail extends Component {
   render() {
+    const { isActive, index } = this.props;
     const thumbClasses = classNames(
       'h-16',
       ' w-20',
+      'md:mr-4',
       'border-2',
-      'border-primary',
-      'bg-purple-800',
-      'md:mr-4'
+      'border-transparent',
+      {
+        'border-primary': index === isActive,
+      }
     );
     const { background } = this.props;
     return (

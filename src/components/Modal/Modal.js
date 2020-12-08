@@ -36,8 +36,10 @@ class Modal extends Component {
 
     const thumbnails = project.thumbnails.map((thumbnail, index) => (
       <Thumbnail
+        index={index}
         background={thumbnail}
         onClick={() => this.onThumbnailClick(index)}
+        isActive={this.state.index}
       />
     ));
     const heroSource = project.thumbnails[this.state.index];

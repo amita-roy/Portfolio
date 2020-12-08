@@ -18,7 +18,7 @@
     "title": "herSTYLE",
     "tags": ["Ruby", "Ruby on Rails", "Scss", "HTML/ERB"],
     "repository": "https://github.com/Amita-Roy/ROR-Capstone-Her_Style/tree/development",
-    "live": "https://wonderful-lichterman-cecf3b.netlify.app/",
+    "live": "https://murmuring-dawn-03579.herokuapp.com/",
     "image": "https://raw.githubusercontent.com/Amita-Roy/ROR-Capstone-Her_Style/development/app/assets/images/IMac.jpg",
     "description": "This project was developed with Ruby on Rails, which is based on lifestyle articles. I have followed the given design and decided to develop this article app on women lifestyle. I am planning to work on it in future to add more features and I'll add a personal logo as well for this web app. For testing I have used RSpec and Capybara.",
     "thumbnails": [
