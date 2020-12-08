@@ -6,36 +6,27 @@ import { Modal } from './Modal';
 class Projects extends Component {
   state = {
     isModalOpen: false,
+    project: null,
   };
 
-  onOpenModal = () => {
-    this.setState({ isModalOpen: true });
+  onOpenModal = (project) => {
+    this.setState({ isModalOpen: true, project });
   };
 
   onCloseModal = () => {
-    this.setState({ isModalOpen: false });
+    this.setState({ isModalOpen: false, project: null });
   };
 
   render() {
     const topProjects = data
       .slice(0, 2)
       .map((project) => (
-        <Card
-          title={project.title}
-          background={project.image}
-          openModal={this.onOpenModal}
-          tags={project.tags}
-        />
+        <Card openModal={this.onOpenModal} project={project} />
       ));
     const bottomProjects = data
       .slice(2, data.length)
       .map((project) => (
-        <Card
-          title={project.title}
-          background={project.image}
-          openModal={this.onOpenModal}
-          tags={project.tags}
-        />
+        <Card openModal={this.onOpenModal} project={project} />
       ));
     return (
       <div className="mt-10 md:mt-40 md:px-20 px-4" id="portfolio">
@@ -46,7 +37,11 @@ class Projects extends Component {
             {bottomProjects}
           </div>
         </div>
-        <Modal isOpen={this.state.isModalOpen} onClose={this.onCloseModal} />
+        <Modal
+          isOpen={this.state.isModalOpen}
+          onClose={this.onCloseModal}
+          project={this.state.project}
+        />
       </div>
     );
   }

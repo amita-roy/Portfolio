@@ -9,7 +9,14 @@ ReactModal.setAppElement('#root');
 
 class Modal extends Component {
   render() {
-    const { isOpen, onClose } = this.props;
+    const { isOpen, onClose, project } = this.props;
+    if (!project) {
+      return null;
+    }
+    const tagList = project.tags.map((tag) => (
+      <Tag color="secondaryLight">{tag}</Tag>
+    ));
+    console.log(project.tags);
     return (
       <ReactModal
         isOpen={isOpen}
@@ -29,7 +36,7 @@ class Modal extends Component {
               <Thumbnail />
             </div>
             <div className="buttonLinks flex flex-col mt-4 md:mt-0 ">
-              <Button href="/">
+              <Button href={project.live}>
                 <div className="relative">
                   <p>See live</p>
 
@@ -56,7 +63,7 @@ class Modal extends Component {
                 </div>
               </Button>
               <span className="mb-4"></span>
-              <Button href="/">
+              <Button href={project.repository}>
                 <div className="relative">
                   <p className="pr-6">See source</p>
 
@@ -81,20 +88,11 @@ class Modal extends Component {
           </div>
           <div className="bottomContent mt-6">
             <h3 className="font-display text-xl md:text-3xl font-extrabold text-secondary">
-              My Project
+              {project.title}
             </h3>
-            <div className="mt-2 mb-3 md:mb-5 flex flex-wrap">
-              <Tag>Javascript</Tag>
-              <Tag>HTML/CSS</Tag>
-              <Tag>Ruby on Rails</Tag>
-            </div>
+            <div className="mt-2 mb-3 md:mb-5 flex flex-wrap">{tagList}</div>
             <p className="text-grayLight text-sm font-normal">
-              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
-              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
-              enim ad minim veniam, quis nostrud exercitation ullamco laboris
-              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
-              reprehenderit in voluptate velit esse cillum dolore eu fugiat
-              nulla pariatur.
+              {project.description}
             </p>
           </div>
         </div>

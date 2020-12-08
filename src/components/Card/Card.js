@@ -5,6 +5,10 @@ import { Tag } from '../Tag';
 import styles from './Card.module.css';
 
 class Card extends Component {
+  handleButtonClick = () => {
+    const { project, openModal } = this.props;
+    openModal(project);
+  };
   render() {
     const cardClasses = classNames(
       'lg:p-10',
@@ -21,7 +25,7 @@ class Card extends Component {
       'bg-center',
       'bg-no-repeat'
     );
-    const { title, background, tags } = this.props;
+    const { title, image, tags } = this.props.project;
     const tagListLight = tags.map((tag) => (
       <Tag color="primaryLight">{tag}</Tag>
     ));
@@ -33,7 +37,7 @@ class Card extends Component {
         <div
           className={`${cardClasses} ${styles.Card}`}
           style={{
-            backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 98.35%), url(${background})`,
+            backgroundImage: `linear-gradient(180deg, rgba(0, 0, 0, 0.5) 0%, rgba(0, 0, 0, 0) 98.35%), url(${image})`,
           }}
         >
           <div>
@@ -45,14 +49,14 @@ class Card extends Component {
             </div>
           </div>
           <div className={`${styles.Button} ${styles.Element}`}>
-            <Button onClick={this.props.openModal}>See the project</Button>
+            <Button onClick={this.handleButtonClick}>See the project</Button>
           </div>
         </div>
 
         <div className={styles.smallScreenTags}>{tagListDark}</div>
 
         <div className={styles.smallScreenButton}>
-          <Button onClick={this.props.openModal}>See the project</Button>
+          <Button onClick={this.handleButtonClick}>See the project</Button>
         </div>
       </div>
     );
