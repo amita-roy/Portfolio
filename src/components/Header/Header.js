@@ -18,7 +18,7 @@ export class Header extends Component {
           <h1 className=" text-3xl md:text-5xl lg:text-6xl mb-6  md:max-w-lg font-display font-extrabold">
             Pretty code by ingenious person
           </h1>
-          <p className="w-full md:max-w-xl text-sm text-grayLight font-body">
+          <p className="w-full md:max-w-xl text-sm text-grayLight font-body leading-7">
             Hello I am a software developer! I can help you build a product,
             feature or website. Look through some of my work and experience! If
             you like what you see and have project you need coded, don’t

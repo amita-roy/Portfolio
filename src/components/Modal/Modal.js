@@ -91,7 +91,9 @@ class Modal extends Component {
               {project.title}
             </h3>
             <div className="mt-2 mb-3 md:mb-5 flex flex-wrap">{tagList}</div>
-            <p className="text-grayLight text-sm font-normal">
+            <p
+              className={`text-grayLight text-sm font-normal ${styles.description}`}
+            >
               {project.description}
             </p>
           </div>
