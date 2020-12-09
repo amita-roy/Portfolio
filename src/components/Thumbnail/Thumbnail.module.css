@@ -1,0 +1,12 @@
+.thumbnail {
+  background-position: center;
+  background-size: cover;
+  cursor: pointer;
+  transition: all 0.5s ease-out;
+}
+
+.thumbnail:hover,
+.thumbnail:active,
+.thumbnail:focus {
+  box-shadow: 0 10px 10px rgba(0, 0, 0, 0.2);
+}

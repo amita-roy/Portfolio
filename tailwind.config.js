@@ -18,9 +18,27 @@ module.exports = {
         secondaryLight: '#423B39',
         white: '#FFF',
         border: '#CFD2DA',
+        borderLight: '#FFA07D',
         placeholder: '#B0B4BD',
         grayLight: '#727274',
       },
+
+      fontFamily: {
+        display: 'Nunito',
+        body: 'Roboto',
+      },
+
+      minHeight: {
+        0: '0',
+        '1/4': '25%',
+        '1/2': '50%',
+        '3/4': '75%',
+        full: '100%',
+      },
+
+      backgroundImage: (theme) => ({
+        'any-image': "url('/src/images/test.jpg')",
+      }),
     },
   },
   variants: {
