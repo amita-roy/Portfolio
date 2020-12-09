@@ -27,7 +27,9 @@ class About extends Component {
             Look through some of my work and experience! If you like what you
             see and have project you need coded, don’t hesistate to contact me.
           </p>
-          <Button>Get my resume</Button>
+          <Button href="https://github.com/Amita-Roy/Resume/tree/master">
+            Get my resume
+          </Button>
         </div>
         <div className="md:h-full md:w-1/2 mt-8 md:mt-0">
           <Skill type="Front-End" skills={frontEnd} />
