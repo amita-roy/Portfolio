@@ -3,10 +3,11 @@ import classNames from 'classnames';
 
 export class Link extends Component {
   static defaultProps = {
-    id: '',
+    to: '',
   };
+
   render() {
-    const { id } = this.props;
+    const { to } = this.props;
     const linkClassnames = classNames(
       'text-sm',
       'ml-5',
@@ -14,7 +15,7 @@ export class Link extends Component {
       'hover:text-primary'
     );
     return (
-      <a href={`#${id}`} className={linkClassnames}>
+      <a href={`#${to}`} className={linkClassnames}>
         {this.props.children}
       </a>
     );

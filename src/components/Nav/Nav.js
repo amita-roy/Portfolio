@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import Link from '../Link';
+import { ReactComponent as Logo } from '../../images/temp-logo1.svg';
 // import styles from './Nav.module.css';
 import classNames from 'classnames';
 // import './helper';
@@ -10,8 +11,8 @@ class Nav extends Component {
       'flex',
       'items-center',
       'justify-between',
-      'h-5',
       'py-5',
+      'md:h-40',
       'h-20',
       'md:px-20',
       'px-4',
@@ -23,15 +24,15 @@ class Nav extends Component {
     return (
       <div className={`${navClasses}`} id="fixed-nav">
         <div className="brand">
-          <h1>
-            <a href="/">ar</a>
-          </h1>
+          <a href="/">
+            <Logo width={50} />
+          </a>
         </div>
         <div className="links">
-          <Link id="intro">Intro</Link>
-          <Link id="portfolio">Portfolio</Link>
-          <Link id="about">About</Link>
-          <Link id="contact">Contact</Link>
+          <Link to="intro">Intro</Link>
+          <Link to="portfolio">Portfolio</Link>
+          <Link to="about">About</Link>
+          <Link to="contact">Contact</Link>
         </div>
       </div>
     );

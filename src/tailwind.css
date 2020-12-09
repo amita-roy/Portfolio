@@ -15,6 +15,21 @@ body {
   background-color: #f2f2f2;
 }
 
+#about,
+#portfolio,
+#intro,
+#contact {
+  scroll-margin-top: 5rem;
+}
+
+@media (min-width: 768px) {
+  #about,
+  #portfolio,
+  #intro {
+    scroll-margin-top: 10rem;
+  }
+}
+
 @media (min-width: 1024px) {
   body {
     background: url('./images/background-pattern.png'), #f2f2f2;
