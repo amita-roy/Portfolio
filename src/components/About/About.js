@@ -27,7 +27,7 @@ class About extends Component {
             Look through some of my work and experience! If you like what you
             see and have project you need coded, don’t hesistate to contact me.
           </p>
-          <Button href="https://github.com/Amita-Roy/Resume/tree/master">
+          <Button href="https://github.com/Amita-Roy/Resume">
             Get my resume
           </Button>
         </div>
