@@ -6,16 +6,23 @@
     "@testing-library/jest-dom": "^5.11.6",
     "@testing-library/react": "^11.2.2",
     "@testing-library/user-event": "^12.2.2",
+    "autoprefixer": "^10.0.3",
+    "classnames": "^2.2.6",
+    "postcss": "^8.1.10",
+    "postcss-cli": "^8.3.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-modal": "^3.12.1",
     "react-scripts": "4.0.1",
+    "tailwindcss": "^2.0.1",
     "web-vitals": "^0.2.4"
   },
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
+    "start": "npm run watch:css && react-scripts start",
+    "build": "npm run watch:css && react-scripts build",
     "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "eject": "react-scripts eject",
+    "watch:css": "postcss src/tailwind.css -o src/main.css"
   },
   "eslintConfig": {
     "extends": [

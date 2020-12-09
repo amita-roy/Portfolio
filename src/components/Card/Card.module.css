@@ -1,0 +1,40 @@
+.smallScreenTags,
+.smallScreenButton {
+  display: none;
+}
+
+.Card .Element {
+  opacity: 0;
+  transition: opacity 0.3s ease-in;
+}
+.Card:hover .Element {
+  opacity: 1;
+}
+
+.Tags {
+  display: flex;
+}
+.Button {
+  display: inline-block;
+}
+
+@media (max-width: 768px) {
+  .Tags,
+  .Button {
+    display: none;
+  }
+
+  .smallScreenTags {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 20px 0;
+  }
+
+  .smallScreenButton {
+    display: block;
+  }
+
+  .smallScreenButton a {
+    display: block;
+  }
+}
