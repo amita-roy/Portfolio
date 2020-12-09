@@ -12,6 +12,7 @@ class Tag extends Component {
       'text-white',
       'text-xs',
       'sm:text-sm',
+      'mt-2',
 
       {
         'bg-primaryLight': color === 'primaryLight',
