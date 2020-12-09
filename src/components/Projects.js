@@ -21,12 +21,12 @@ class Projects extends Component {
     const topProjects = data
       .slice(0, 2)
       .map((project) => (
-        <Card openModal={this.onOpenModal} project={project} />
+        <Card openModal={this.onOpenModal} project={project} key={project.id} />
       ));
     const bottomProjects = data
       .slice(2, data.length)
       .map((project) => (
-        <Card openModal={this.onOpenModal} project={project} />
+        <Card openModal={this.onOpenModal} project={project} key={project.id} />
       ));
     return (
       <div className="mt-10 md:mt-40 md:px-20 px-4" id="portfolio">

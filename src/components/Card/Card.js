@@ -26,11 +26,15 @@ class Card extends Component {
       'bg-no-repeat'
     );
     const { title, image, tags } = this.props.project;
-    const tagListLight = tags.map((tag) => (
-      <Tag color="primaryLight">{tag}</Tag>
+    const tagListLight = tags.map((tag, index) => (
+      <Tag color="primaryLight" key={index}>
+        {tag}
+      </Tag>
     ));
-    const tagListDark = tags.map((tag) => (
-      <Tag color="secondaryLight">{tag}</Tag>
+    const tagListDark = tags.map((tag, index) => (
+      <Tag color="secondaryLight" key={index}>
+        {tag}
+      </Tag>
     ));
     return (
       <div>
