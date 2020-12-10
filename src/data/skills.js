@@ -9,7 +9,7 @@ const frontEnd = [
   'Sass',
   'Material Design',
   'Bootstrap',
-  'Styled Component',
+  'Styled Components',
   'Mobile/Responsive Development',
 ];
 const backEnd = [' Ruby', ' Rails', 'MySQL', 'Node.js'];

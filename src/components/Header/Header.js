@@ -19,17 +19,17 @@ export class Header extends Component {
             Pretty code by ingenious person
           </h1>
           <p className="w-full md:max-w-xl text-sm text-grayLight font-body leading-7">
-            Hello I am a software developer! I can help you build a product,
-            feature or website. Look through some of my work and experience! If
-            you like what you see and have project you need coded, don’t
-            hesistate to contact me.
+            Hello, I am Amita, a software developer! I can help you build a
+            product, feature or website. Look through some of my work and
+            experience! If you like what you see and have a project you need
+            coded, don’t hesistate to contact me.
           </p>
         </div>
         <div className="md:flex md:items-center mt-10 md:mt-20">
           <p className="sm:mr-12 text-grayLight font-semibold">
             My works in social networks
           </p>
-          <div className=" mt-3 md:mt-0">
+          <div className="mt-3 md:mt-0">
             <SocialIconGroupPrimary />
           </div>
         </div>

@@ -18,8 +18,6 @@ class About extends Component {
         <div className="md:h-full md:w-1/2 md:pr-6">
           <h2 className="text-3xl font-display font-extrabold">About Me</h2>
           <p className=" w-full md:max-w-lg my-8 text-grayLight font-normal leading-7">
-            From being an HR(Human resource) professional to software developer.
-            I left my job in December 2018 and started learning programming.
             Well-organised person, problem solver, a person with high attention
             to detail. There’s nothing I enjoy more developing good websites for
             nice people. While I’ll never be perfect, I do my best to come
