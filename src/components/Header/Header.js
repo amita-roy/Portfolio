@@ -22,7 +22,7 @@ export class Header extends Component {
             Hello, I am Amita, a software developer! I can help you build a
             product, feature or website. Look through some of my work and
             experience! If you like what you see and have a project you need
-            coded, don’t hesistate to contact me.
+            coded, don’t hesitate to contact me.
           </p>
         </div>
         <div className="md:flex md:items-center mt-10 md:mt-20">
