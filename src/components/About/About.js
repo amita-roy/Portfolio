@@ -19,13 +19,16 @@ class About extends Component {
           <h2 className="text-3xl font-display font-extrabold">About Me</h2>
           <p className=" w-full md:max-w-lg my-8 text-grayLight font-normal leading-7">
             From being an HR(Human resource) professional to software developer.
-            I left my job in December 2018 and started learning programming. It
-            gives me immense pleasure to solve real life problems with my code
-            and it helped me improving my logical thinking as well.
+            I left my job in December 2018 and started learning programming.
+            Well-organised person, problem solver, a person with high attention
+            to detail. There’s nothing I enjoy more developing good websites for
+            nice people. While I’ll never be perfect, I do my best to come
+            close.
           </p>
           <p className=" w-full md:max-w-lg my-8 text-grayLight font-normal leading-7">
-            Look through some of my work and experience! If you like what you
-            see and have project you need coded, don’t hesistate to contact me.
+            Look through some of my work and experience! If you’ve got a project
+            you’d like to work on with me just get in touch and we can get to
+            work!
           </p>
           <Button href="https://github.com/Amita-Roy/Resume">
             Get my resume

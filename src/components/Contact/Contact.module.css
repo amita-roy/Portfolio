@@ -1,0 +1,9 @@
+.email {
+  transition: all 0.5s ease-out;
+}
+
+.email:hover {
+  transition: all 0.5s ease-in;
+  text-decoration: underline;
+  font-size: 16px;
+}

@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { Form } from '../ContactForm';
 import { SocialIconGroupLight } from '../Icon';
+import styles from './Contact.module.css';
 
 class Contact extends Component {
   render() {
@@ -19,8 +20,13 @@ class Contact extends Component {
         </p>
         <Form />
         <div className=" w-full mt-10 md:w-1/3 mx-auto sm:flex sm:justify-center sm:items-center pb-8 border-b border-borderLight">
-          <p className="text-primaryLight text-xs mr-3">
-            amita.roy@workmail.com
+          <p className={`text-primaryLight text-xs mr-3 ${styles.email}`}>
+            <a
+              href="mailto:amita.roy@workmail.com"
+              className="text-primaryLight"
+            >
+              amita.roy@workmail.com
+            </a>
           </p>
           <div className="mt-3 sm:mt-0 flex justify-center md:block">
             <SocialIconGroupLight />
