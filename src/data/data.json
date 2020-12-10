@@ -6,7 +6,7 @@
     "repository": "https://github.com/Amita-Roy/global-summit-2020",
     "live": "https://wonderful-lichterman-cecf3b.netlify.app/",
     "image": "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
-    "description": "This Project was a capstone project for HTML/CSS module. I have created 3 different pages(Home, About, Join) for this project. I am using bootstrap and custome styles for this project.",
+    "description": "This Project was a capstone project for HTML/CSS module. I have created 3 different pages(Home, About, Join) for this project. I am using bootstrap and custom styles for this project.",
     "thumbnails": [
       "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
       "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/thumb1.png",
@@ -34,7 +34,7 @@
     "repository": "https://github.com/Amita-Roy/Ruby_Capstone_CSS_Linter",
     "live": "https://github.com/Amita-Roy/Ruby_Capstone_CSS_Linter",
     "image": "https://raw.githubusercontent.com/Amita-Roy/Ruby_Capstone_CSS_Linter/master/.github/valid_units.png",
-    "description": "This is a capstone project for Ruby. I have developed CSS linter with 4 different linting rules. For testing I have used RSpec and for test coverage I have usede simplecov gem. I have used crass gem for parsing css",
+    "description": "This is a capstone project for Ruby. I have developed CSS linter with 4 different linting rules. For testing I have used RSpec and for test coverage I have used simplecov gem. I have used crass gem for parsing css",
     "thumbnails": [
       "https://raw.githubusercontent.com/Amita-Roy/Ruby_Capstone_CSS_Linter/master/.github/valid_units.png",
       "https://raw.githubusercontent.com/Amita-Roy/Ruby_Capstone_CSS_Linter/master/.github/length_zero_no_unit.png",
@@ -48,7 +48,7 @@
     "repository": "https://github.com/Amita-Roy/HackerNews-Clone",
     "live": "https://github.com/Amita-Roy/HackerNews-Clone",
     "image": "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss1.png",
-    "description": "I built this project for my practice on React. This page is a clone of this https://news.ycombinator.com/ website. All the lates news are getting fetched from original website.",
+    "description": "I built this project for my practice on React. This page is a clone of this https://news.ycombinator.com/ website. All the latest news are getting fetched from original website.",
     "thumbnails": [
       "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss1.png",
       "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss2.png",
@@ -62,7 +62,7 @@
     "repository": "https://github.com/Amita-Roy/Fcc-Landing-page",
     "live": "https://ecstatic-roentgen-6fc833.netlify.app/",
     "image": "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-1.png",
-    "description": "I devloped this page when I was learning code from freeCodeCamp. While creating this page there were 15 user stories to pass the all the tests, which you can see in my github repository. Page is not responsive because responsive design was not in the requirements.",
+    "description": "I devloped this page when I was learning code from freeCodeCamp. While creating this page there were 15 user stories to pass all the tests, which you can see in my github repository. Page is not responsive because responsive design was not in the requirements.",
     "thumbnails": [
       "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-1.png",
       "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-2.png",
