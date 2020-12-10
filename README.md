@@ -1,6 +1,6 @@
 # My Portfolio
 
-> I have created a this portfolio in react and used tailwind for styling.
+> I have created this portfolio in react and used tailwind for styling.
 
 #### Form in contact section
 
