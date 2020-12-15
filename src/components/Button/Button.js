@@ -23,6 +23,7 @@ class Button extends Component {
         'hover:bg-primaryDark': type === 'primary',
         'bg-primary': type === 'primary',
         'bg-secondary': type === 'secondary',
+        'hover:bg-secondaryLight': type === 'secondary',
         block: !!block,
         'inline-block': !block,
       }
