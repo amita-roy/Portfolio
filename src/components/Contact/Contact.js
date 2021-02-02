@@ -15,8 +15,8 @@ class Contact extends Component {
         </h4>
         <p className="text-white text-sm md:w-1/2 lg:w-1/4 m-auto mb-10">
           If you have an application you are interested in developing, a feature
-          that you need built or a project that need coding, I’d love to help
-          you with it.
+          that you need building, or a project that needs coding, I’d love to
+          help you with it.
         </p>
         <Form />
         <div className=" w-full mt-10 md:w-1/3 mx-auto sm:flex sm:justify-center sm:items-center pb-8 border-b border-borderLight">

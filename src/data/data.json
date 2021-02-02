@@ -6,7 +6,7 @@
     "repository": "https://github.com/Amita-Roy/global-summit-2020",
     "live": "https://wonderful-lichterman-cecf3b.netlify.app/",
     "image": "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
-    "description": "This Project was a capstone project for HTML/CSS module. I have created 3 different pages(Home, About, Join) for this project. I am using bootstrap and custom styles for this project.",
+    "description": "This project was the capstone for HTML/CSS module. I have created 3 different pages(Home, About, Join). Using bootstrap and custom styles.",
     "thumbnails": [
       "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
       "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/thumb1.png",
@@ -20,7 +20,7 @@
     "repository": "https://github.com/Amita-Roy/ROR-Capstone-Her_Style/tree/development",
     "live": "https://murmuring-dawn-03579.herokuapp.com/",
     "image": "https://raw.githubusercontent.com/Amita-Roy/ROR-Capstone-Her_Style/development/app/assets/images/IMac.jpg",
-    "description": "This project was developed with Ruby on Rails, which is based on lifestyle articles. I have followed the given design and decided to develop this article app on women lifestyle. I am planning to work on it in future to add more features and I'll add a personal logo as well for this web app. For testing I have used RSpec and Capybara.",
+    "description": "This project was developed with Ruby on Rails, which is based on lifestyle articles. I have followed the given design and decided to develop this article app on women's lifestyle. I am planning to work on it in the future to add more features and I'll add a personal logo as well for this web app. For testing, I have used RSpec and Capybara.",
     "thumbnails": [
       "https://raw.githubusercontent.com/Amita-Roy/ROR-Capstone-Her_Style/development/app/assets/images/IMac.jpg",
       "https://raw.githubusercontent.com/Amita-Roy/ROR-Capstone-Her_Style/development/app/assets/images/tab.jpg",
@@ -48,7 +48,7 @@
     "repository": "https://github.com/Amita-Roy/HackerNews-Clone",
     "live": "https://github.com/Amita-Roy/HackerNews-Clone",
     "image": "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss1.png",
-    "description": "I built this project for my practice on React. This page is a clone of this https://news.ycombinator.com/ website. All the latest news are getting fetched from original website.",
+    "description": "I built this project for my practice on React. This web app is a clone of this https://news.ycombinator.com/ website. All the latest news are getting fetched from the original website.",
     "thumbnails": [
       "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss1.png",
       "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss2.png",
@@ -62,7 +62,7 @@
     "repository": "https://github.com/Amita-Roy/Fcc-Landing-page",
     "live": "https://ecstatic-roentgen-6fc833.netlify.app/",
     "image": "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-1.png",
-    "description": "I developed this page when I was learning code from freeCodeCamp. While creating this page there were 15 user stories to pass all the tests, which you can see in my github repository. Page is not responsive because responsive design was not in the requirements.",
+    "description": "I developed this page when I was learning code from freeCodeCamp. While creating this page, there were 15 user stories to pass all the tests, which you can see in my Github repository. The page is not responsive because the responsive design was not in the requirements.",
     "thumbnails": [
       "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-1.png",
       "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-2.png",

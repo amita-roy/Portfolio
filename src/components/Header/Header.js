@@ -20,14 +20,14 @@ export class Header extends Component {
           </h1>
           <p className="w-full md:max-w-xl text-sm text-grayLight font-body leading-7">
             Hello, I am Amita, a software developer! I can help you build a
-            product, feature or website. Look through some of my work and
-            experience! If you like what you see and have a project you need
-            coded, don’t hesitate to contact me.
+            product, feature, or website. Look through some of my work and
+            experience! If you like what you see and have a project you need to
+            get coded, don’t hesitate to contact me.
           </p>
         </div>
         <div className="md:flex md:items-center mt-10 md:mt-20">
           <p className="sm:mr-12 text-grayLight font-semibold">
-            My works in social networks
+            Join me online
           </p>
           <div className="mt-3 md:mt-0">
             <SocialIconGroupPrimary />
