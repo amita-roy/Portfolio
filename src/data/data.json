@@ -1,18 +1,19 @@
 [
   {
     "id": 1,
-    "title": "Global Summit",
-    "tags": ["HTML/CSS", "Bootstrap"],
-    "repository": "https://github.com/Amita-Roy/global-summit-2020",
-    "live": "https://wonderful-lichterman-cecf3b.netlify.app/",
-    "image": "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
-    "description": "This project was the capstone for HTML/CSS module. I have created 3 different pages(Home, About, Join). Using bootstrap and custom styles.",
+    "title": "Sea Delicacies",
+    "tags": ["Javascrip", "Jquery", "HTML/CSS"],
+    "repository": "https://github.com/Amita-Roy/Sea-Delicacies",
+    "live": "https://sea-delicacies-git-homepage.royamita.vercel.app/",
+    "image": "https://raw.githubusercontent.com/Amita-Roy/Sea-Delicacies/development/src/assets/images/homepage.png",
+    "description": "(For Desktop screen only) DOM manipulation by dynamically rendering a simple restaurant homepage!. I have used JavaScript alone to generate the entire contents of the website!. I have created 3 pages (Home, Menu and Contact) for this project. User can switch to different tab by clicking on each nav item on the page.",
     "thumbnails": [
-      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
-      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/thumb1.png",
-      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/thumb2.png"
+      "https://raw.githubusercontent.com/Amita-Roy/Sea-Delicacies/development/src/assets/images/homepage.png",
+      "https://raw.githubusercontent.com/Amita-Roy/Sea-Delicacies/development/src/assets/images/menupage.png",
+      "https://raw.githubusercontent.com/Amita-Roy/Sea-Delicacies/development/src/assets/images/contactpage.png"
     ]
   },
+
   {
     "id": 2,
     "title": "herSTYLE",
@@ -29,6 +30,20 @@
   },
   {
     "id": 3,
+    "title": "Global Summit",
+    "tags": ["HTML/CSS", "Bootstrap"],
+    "repository": "https://github.com/Amita-Roy/global-summit-2020",
+    "live": "https://wonderful-lichterman-cecf3b.netlify.app/",
+    "image": "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
+    "description": "This project was the capstone for HTML/CSS module. I have created 3 different pages(Home, About, Join). Using bootstrap and custom styles.",
+    "thumbnails": [
+      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
+      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/thumb1.png",
+      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/thumb2.png"
+    ]
+  },
+  {
+    "id": 4,
     "title": "CSS Linter",
     "tags": ["Ruby", "CSS"],
     "repository": "https://github.com/Amita-Roy/Ruby_Capstone_CSS_Linter",
@@ -42,7 +57,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "Hacker News Clone",
     "tags": ["React", "Javascript"],
     "repository": "https://github.com/Amita-Roy/HackerNews-Clone",
@@ -53,20 +68,6 @@
       "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss1.png",
       "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss2.png",
       "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss3.png"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Bicycle Landing Page",
-    "tags": ["HTML/CSS"],
-    "repository": "https://github.com/Amita-Roy/Fcc-Landing-page",
-    "live": "https://ecstatic-roentgen-6fc833.netlify.app/",
-    "image": "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-1.png",
-    "description": "I developed this page when I was learning code from freeCodeCamp. While creating this page, there were 15 user stories to pass all the tests, which you can see in my Github repository. The page is not responsive because the responsive design was not in the requirements.",
-    "thumbnails": [
-      "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-1.png",
-      "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-2.png",
-      "https://raw.githubusercontent.com/Amita-Roy/Fcc-Landing-page/master/images/screenshot-3.png"
     ]
   }
 ]
