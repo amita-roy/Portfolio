@@ -16,6 +16,20 @@
 
   {
     "id": 2,
+    "title": "Weather App",
+    "tags": ["Javascript", "Jquery", "API", "Axios", "Webpack", "Scss"],
+    "repository": "https://github.com/Amita-Roy/Weather-App",
+    "live": "https://weather-app-git-development.royamita.vercel.app/",
+    "image": "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/src/assets/images/homepage.png",
+    "description": "In this project I have used the API https://openweathermap.org/ for weather data. The current weather information is displayed for any city that we enter. Along with weather information, I'm fetching the air pollution data as well and displaying the quality of air from 1 to 5, Where 1 = Good, 2 = Fair, 3 = Moderate, 4 = Poor, 5 = Very Poor.",
+    "thumbnails": [
+      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/src/assets/images/homepage.png",
+      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/src/assets/images/homepage1.png",
+      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/src/assets/images/homepage2.png"
+    ]
+  },
+  {
+    "id": 3,
     "title": "herSTYLE",
     "tags": ["Ruby", "Ruby on Rails", "Scss", "HTML/ERB"],
     "repository": "https://github.com/Amita-Roy/ROR-Capstone-Her_Style/tree/development",
@@ -29,7 +43,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "Global Summit",
     "tags": ["HTML/CSS", "Bootstrap"],
     "repository": "https://github.com/Amita-Roy/global-summit-2020",
@@ -43,7 +57,7 @@
     ]
   },
   {
-    "id": 4,
+    "id": 5,
     "title": "CSS Linter",
     "tags": ["Ruby", "CSS"],
     "repository": "https://github.com/Amita-Roy/Ruby_Capstone_CSS_Linter",
@@ -54,20 +68,6 @@
       "https://raw.githubusercontent.com/Amita-Roy/Ruby_Capstone_CSS_Linter/master/.github/valid_units.png",
       "https://raw.githubusercontent.com/Amita-Roy/Ruby_Capstone_CSS_Linter/master/.github/length_zero_no_unit.png",
       "https://raw.githubusercontent.com/Amita-Roy/Ruby_Capstone_CSS_Linter/master/.github/duplicate_selectors.png"
-    ]
-  },
-  {
-    "id": 5,
-    "title": "Hacker News Clone",
-    "tags": ["React", "Javascript"],
-    "repository": "https://github.com/Amita-Roy/HackerNews-Clone",
-    "live": "https://github.com/Amita-Roy/HackerNews-Clone",
-    "image": "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss1.png",
-    "description": "I built this project for my practice on React. This web app is a clone of this https://news.ycombinator.com/ website. All the latest news are getting fetched from the original website.",
-    "thumbnails": [
-      "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss1.png",
-      "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss2.png",
-      "https://raw.githubusercontent.com/Amita-Roy/HackerNews-Clone/master/src/assets/images/ss3.png"
     ]
   }
 ]
