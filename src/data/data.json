@@ -20,12 +20,12 @@
     "tags": ["Javascript", "Jquery", "API", "Axios", "Webpack", "Scss"],
     "repository": "https://github.com/Amita-Roy/Weather-App",
     "live": "https://weather-app-git-development.royamita.vercel.app/",
-    "image": "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/src/assets/images/homepage.png",
+    "image": "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/screenshots/homepage.png",
     "description": "In this project I have used the API https://openweathermap.org/ for weather data. The current weather information is displayed for any city that we enter. Along with weather information, I'm fetching the air pollution data as well and displaying the quality of air from 1 to 5, Where 1 = Good, 2 = Fair, 3 = Moderate, 4 = Poor, 5 = Very Poor.",
     "thumbnails": [
-      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/src/assets/images/homepage.png",
-      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/src/assets/images/homepage1.png",
-      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/src/assets/images/homepage2.png"
+      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/screenshots/homepage.png",
+      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/screenshots/homepage1.png",
+      "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/screenshots/homepage2.png"
     ]
   },
   {
