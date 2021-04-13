@@ -2,9 +2,6 @@
 
 > I have created this portfolio in react and used tailwind for styling.
 
-#### Form in contact section
-
-> Form is not in working state right now but all the social links are working to get connected. I'll make this form working in future update.
 
 ![SS1](./src/images/ss1.png)
 ![SS2](./src/images/ss2.png)
