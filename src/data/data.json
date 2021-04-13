@@ -1,6 +1,20 @@
 [
   {
     "id": 1,
+    "title": "The Mixing House",
+    "tags": ["React", "Redux", "Redux Thunk", "Axios", "Jest", "React Testing Library"],
+    "repository": "https://github.com/Amita-Roy/The-Mixing-House",
+    "live": "https://the-mixing-house.herokuapp.com/",
+    "image": "https://raw.githubusercontent.com/Amita-Roy/The-Mixing-House/development/screenshots/listPage.png",
+    "description": "Built this project for the React capstone is based on a catalogue of recipes. It is a browsable list of items that you can filter and access to the details of one item.",
+    "thumbnails": [
+      "https://raw.githubusercontent.com/Amita-Roy/The-Mixing-House/development/screenshots/listPage.png",
+      "https://raw.githubusercontent.com/Amita-Roy/The-Mixing-House/development/screenshots/recipePage.png",
+      "https://raw.githubusercontent.com/Amita-Roy/The-Mixing-House/working-branch/screenshots/CocktailsList.png"
+    ]
+  },
+  {
+    "id": 2,
     "title": "Sea Delicacies",
     "tags": ["Javascrip", "Jquery", "HTML/CSS"],
     "repository": "https://github.com/Amita-Roy/Sea-Delicacies",
@@ -15,7 +29,7 @@
   },
 
   {
-    "id": 2,
+    "id": 3,
     "title": "Weather App",
     "tags": ["Javascript", "Jquery", "API", "Axios", "Webpack", "Scss"],
     "repository": "https://github.com/Amita-Roy/Weather-App",
@@ -29,7 +43,7 @@
     ]
   },
   {
-    "id": 3,
+    "id": 4,
     "title": "herSTYLE",
     "tags": ["Ruby", "Ruby on Rails", "Scss", "HTML/ERB"],
     "repository": "https://github.com/Amita-Roy/ROR-Capstone-Her_Style/tree/development",
@@ -40,20 +54,6 @@
       "https://raw.githubusercontent.com/Amita-Roy/ROR-Capstone-Her_Style/development/app/assets/images/IMac.jpg",
       "https://raw.githubusercontent.com/Amita-Roy/ROR-Capstone-Her_Style/development/app/assets/images/tab.jpg",
       "https://raw.githubusercontent.com/Amita-Roy/ROR-Capstone-Her_Style/development/app/assets/images/laptop.jpg"
-    ]
-  },
-  {
-    "id": 4,
-    "title": "Global Summit",
-    "tags": ["HTML/CSS", "Bootstrap"],
-    "repository": "https://github.com/Amita-Roy/global-summit-2020",
-    "live": "https://wonderful-lichterman-cecf3b.netlify.app/",
-    "image": "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
-    "description": "This project was the capstone for HTML/CSS module. I have created 3 different pages(Home, About, Join). Using bootstrap and custom styles.",
-    "thumbnails": [
-      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/global-summit-2020.png",
-      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/thumb1.png",
-      "https://raw.githubusercontent.com/Amita-Roy/global-summit-2020/master/assets/images/thumb2.png"
     ]
   },
   {
