@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import { Form } from '../ContactForm';
 import { SocialIconGroupLight } from '../Icon';
 import styles from './Contact.module.css';
 
@@ -18,9 +17,8 @@ class Contact extends Component {
           that you need building, or a project that needs coding, I’d love to
           help you with it.
         </p>
-        <Form />
-        <div className=" w-full mt-10 md:w-1/3 mx-auto sm:flex sm:justify-center sm:items-center pb-8 border-b border-borderLight">
-          <p className={`text-primaryLight text-xs mr-3 ${styles.email}`}>
+        <div className=" w-full mt-10 md:w-1/3 mx-auto sm:flex sm:flex-col sm:justify-center sm:items-center pb-8 border-b border-borderLight">
+          <p className={`text-primaryLight text-m mr-3 ${styles.email} mb-4`}>
             <a
               href="mailto:amita.roy@workmail.com"
               className="text-primaryLight"
