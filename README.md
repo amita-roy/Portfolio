@@ -6,7 +6,6 @@
 ![SS1](./src/images/ss1.png)
 ![SS2](./src/images/ss2.png)
 ![SS3](./src/images/ss3.png)
-![SS4](./src/images/ss4.png)
 
 ## Built With
 
