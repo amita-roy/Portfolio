@@ -1,6 +1,21 @@
 [
   {
     "id": 1,
+    "title": "Encapture",
+    "tags": ["React", "Redux", "Redux Thunk", "Axios", "Tailwind", "Jest", "React Testing Library"],
+    "repository": "https://github.com/Amita-Roy/Encapture-Client",
+    "live": "https://encapture.vercel.app/",
+    "image": "https://res.cloudinary.com/dalroqfi9/image/upload/v1620574796/homepage_u11hxa.png",
+    "description": "Built with React & Redux. This project is the front end of an appointment booking app for salon services. Used 'Tailwind' for styles. This web app is built for tablet to desktop screen ( >= 768) size. I have created its backend in 'Ruby on Rails' with PostgreSQL",
+    "thumbnails": [
+      "https://res.cloudinary.com/dalroqfi9/image/upload/v1620574796/homepage_u11hxa.png",
+      "https://res.cloudinary.com/dalroqfi9/image/upload/v1620574796/services_thjocy.png",
+      "https://res.cloudinary.com/dalroqfi9/image/upload/v1620574795/service_detail_wuc7ta.png"
+      
+    ]
+  },
+  {
+    "id": 2,
     "title": "The Mixing House",
     "tags": ["React", "Redux", "Redux Thunk", "Axios", "Jest", "React Testing Library"],
     "repository": "https://github.com/Amita-Roy/The-Mixing-House",
@@ -11,20 +26,6 @@
       "https://raw.githubusercontent.com/Amita-Roy/The-Mixing-House/development/screenshots/listPage.png",
       "https://raw.githubusercontent.com/Amita-Roy/The-Mixing-House/development/screenshots/recipePage.png",
       "https://raw.githubusercontent.com/Amita-Roy/The-Mixing-House/working-branch/screenshots/CocktailsList.png"
-    ]
-  },
-  {
-    "id": 2,
-    "title": "Sea Delicacies",
-    "tags": ["Javascrip", "Jquery", "HTML/CSS"],
-    "repository": "https://github.com/Amita-Roy/Sea-Delicacies",
-    "live": "https://sea-delicacies-git-homepage.royamita.vercel.app/",
-    "image": "https://raw.githubusercontent.com/Amita-Roy/Sea-Delicacies/development/src/assets/images/homepage.png",
-    "description": "(For Desktop screen only) DOM manipulation by dynamically rendering a simple restaurant homepage!. I have used JavaScript alone to generate the entire contents of the website!. I have created 3 pages (Home, Menu and Contact) for this project. User can switch to different tab by clicking on each nav item on the page.",
-    "thumbnails": [
-      "https://raw.githubusercontent.com/Amita-Roy/Sea-Delicacies/development/src/assets/images/homepage.png",
-      "https://raw.githubusercontent.com/Amita-Roy/Sea-Delicacies/development/src/assets/images/menupage.png",
-      "https://raw.githubusercontent.com/Amita-Roy/Sea-Delicacies/development/src/assets/images/contactpage.png"
     ]
   },
 
@@ -42,6 +43,7 @@
       "https://raw.githubusercontent.com/Amita-Roy/Weather-App/development/screenshots/homepage2.png"
     ]
   },
+
   {
     "id": 4,
     "title": "herSTYLE",
