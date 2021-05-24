@@ -1,7 +1,7 @@
 [
   {
     "id": 1,
-    "title": "Encapture",
+    "title": "Appointment Booking App",
     "tags": ["React", "Redux", "Redux Thunk", "Axios", "Tailwind", "Jest", "React Testing Library"],
     "repository": "https://github.com/Amita-Roy/Encapture-Client",
     "live": "https://encapture.vercel.app/",
@@ -16,7 +16,7 @@
   },
   {
     "id": 2,
-    "title": "The Mixing House",
+    "title": "Cocktail Recipe App",
     "tags": ["React", "Redux", "Redux Thunk", "Axios", "Jest", "React Testing Library"],
     "repository": "https://github.com/Amita-Roy/The-Mixing-House",
     "live": "https://the-mixing-house.herokuapp.com/",
@@ -46,7 +46,7 @@
 
   {
     "id": 4,
-    "title": "herSTYLE",
+    "title": "Lifestyle Article App",
     "tags": ["Ruby", "Ruby on Rails", "Scss", "HTML/ERB"],
     "repository": "https://github.com/Amita-Roy/ROR-Capstone-Her_Style/tree/development",
     "live": "https://murmuring-dawn-03579.herokuapp.com/",
