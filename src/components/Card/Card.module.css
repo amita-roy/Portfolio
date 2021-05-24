@@ -13,7 +13,9 @@
 
 .Tags {
   display: flex;
+  flex-wrap: wrap;
 }
+
 .Button {
   display: inline-block;
 }

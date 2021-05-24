@@ -28,7 +28,7 @@
   background-size: cover;
   background-position: left;
   background-repeat: no-repeat;
-  transition: all 0.5s ease-out;
+  /* transition: all 0.5s ease-out; */
 }
 
 .Close {
